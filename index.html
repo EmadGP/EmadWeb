@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Emad portofolio</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">   
+    
+
+    </head>
+
+    <body> 
+        
+        <div class="row">
+
+            <div id="elem1" class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+    
+                <!-- Navigation bar start -->
+
+                <a href="#" class="nav" onclick="openNav()">
+                    <div class="one"></div>
+                    <div class="two"></div>
+                    <div class="three"></div>
+                </a>
+
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div>
+                        <a href="index.html"> 
+                        <img class="little_emad" src="pics/EH.png" alt="Image not found!" width="80" height="80"> 
+                        </a>
+                    </div>
+                    <div class="overlay-content">
+                      <a href="pizza_calculator.html">Pizza calculator</a>
+                      <a href="lootje_verdeler.html">Lootjes verdeler </a>
+                      <a href="horeca.html">Horeca app</a>
+                    </div>
+
+                    <div class="contact">
+                    <a href="contact.html">Contact</a>
+                    </div>
+
+                  </div>
+
+                <script>
+                    
+                    function openNav() {
+                      let query = window.matchMedia("(max-width: 768px)");
+                        if (query.matches) {
+                            document.getElementById("myNav").style.width = "100%";
+                        } else {
+                            document.getElementById("myNav").style.width = "33%";
+                        }  
+                    }
+                    
+                    function closeNav() {
+                      let query = window.matchMedia("(max-width: 768px)");
+                        if (query.matches) {
+                            document.getElementById("myNav").style.width = "0%";
+                        } else {
+                            document.getElementById("myNav").style.width = "0%";
+                        }
+                    }
+
+
+                    </script>
+
+                <!-- Navigation bar end -->
+
+                <img class="img" src="pics/foto.jpg" alt="Image not found!" >
+
+
+                <h4 class="welkom">Welkom bij mijn portfolio!</h4>
+                <h5 class="emad">Mijn naam is Emad Hajiabadi</h5>
+                
+                <p class="voorstellen"> 
+                    Ik ben student Software-developing eerste jaar
+                    op het Da Vinci college.<br><br>
+                    ik ben 18 jaar oud en mijn afkomst is Iran, ik woon ruim
+                    5 jaar in Nederland.
+                </p>
+                <img id="azadi" class="	d-none d-xl-block " src="pics/azadi.png" alt="Image not found!" >
+            </div>
+
+
+
+            <div id="elem2" class="col-xs-0 col-sm-12 col-md-12 col-lg-8">
+                
+                <img class = "laptop" src="pics/room.jpg" alt="Image not found!" >
+                
+                <h1>Waarom deze opleiding?</h1> <br>
+                <p>Zoals gezegd doe ik de opleiding Software-developing en de reden dat ik
+                    hiervoor heb gekozen is dat ik al jaren lang met computers bezig ben geweest en
+                    sinds mijn 13de-14de was ik altijd bezig met nieuwe softwares te ontdekken 
+                    zoals adobe-illustraitor, adobe premiere pro, wondershare filmora etc...
+                    <br>of software's als Unity of leren van Python, daarom kon ik de basis lesstof goed 
+                    begrijpen omdat ik al ervaring had met Python. We hebben hele leuke opdrachten met 
+                    Python gemaakt<br>zoals een Pizza calculator, lootje's verdeler, een simpele rekenmachine etc... 
+                    en er zijn een paar op deze website te vinden.
+                </p>
+
+                <br><br>
+
+                <h1>Mijn plan</h1> <br>
+                <p>Ik vind deze opleiding super leuk en ik zie mijn toekomst in deze gebied.
+                    Ik ben<br>van plan om in een bedrijf te gaan werken als programmeur en na
+                    paar jaar<br>mijn eigen weg op gaan en als freelancer werken.
+                    
+                </p>
+
+                <br><br>
+
+                <h1>Mijn ervaring</h1> <br>
+                <p>Ik heb 70 uur stage gelopen bij Media Markt Hoogcatrijne toen ik op 4de klas<br>en
+                    ik heb als multifunctionele kracht(barista,bediende,barman,afwasser) bij een<br>
+                    italiaanse resturant gewerkt wat ik heel leuk vond. Deze ervaringen heb ik veel<br>van
+                    geleerd, vooral hoe belangrijk samenwerken en communicatie zijn en hoe<br>ik daarin 
+                    beter kan worden. 
+                    
+                </p>
+
+                <br><br>
+
+                <img class = "laptop" src="pics/book.jpg" alt="Image not found!" >
+
+                <h1>Mijn vrije tijd</h1> <br>
+                <p>In mijn vrije tijd doe ik meestal video editen(voor me zelf) of soms
+                    boeken lezen of schaken. In tegenstelling met vroeger, game ik niet zo vaak 
+                    meer of beter te zeggen helemaal niet. Ik probeer om in mijn vrije tijd
+                    ook nieuwe dingen te leren of trainen.<br>
+                    Deze boek hiernaar heet "Atomic habits", echt een leuke boek<br>
+                    en ik lees het in het Perzisch(mijn moedertaal) om het beter<br>te kunnen begrijpen.   
+                    
+                </p>
+
+                
+
+
+            </div>
+        </div>
+        
+    </body>
+</html>

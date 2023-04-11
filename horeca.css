@@ -1,0 +1,240 @@
+div #elem1 {
+    color: white;
+    background-color: #33658A;
+    float: left;
+    position: relative;
+}
+
+.nav div{
+    height: 4px;
+    background-color: #86BBD8;
+    margin: 3px 0 ;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.nav {
+    width: 30px;
+    display: block;
+    margin: 1em 0 0 1em;
+    position: fixed;
+    z-index: 1; 
+    top: 0; 
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.one {
+    width: 30px;
+}
+.two {
+    width: 20px;
+}
+.three {
+    width: 25px;
+}
+.nav:hover div {
+    width: 30px;
+}
+
+
+.beer {
+    align-items:centerS;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+    margin-bottom: 12%;
+    width: 200px;
+    height: 200px;
+}
+
+.welkom {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    line-height: 30px;
+    font-family: monospace;
+
+}
+.emad {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    line-height: 30px;
+    font-family: monospace;
+
+}
+.voorstellen {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    font-size: large;
+    line-height: 30px;
+    font-family: monospace;
+}
+
+#elem2 {
+    background-color: white;
+    margin-top: 3%;
+}
+
+#elem2 p {
+    color: black;
+    margin-left: 5%;
+    font-family: monospace;
+    font-size: 18px;
+}
+
+.bar {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-right: 5%;
+    margin-top: 8%;  
+    display: block;  
+    border-radius: 25px;
+}
+
+
+h1 {
+    color: black;
+    margin-left: 5%;
+    font-family: monospace;
+}
+
+.code {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+/* Hier begint de nav styling */
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    background-color:  #33658A;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+.overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #86BBD8;
+    display: block;
+    transition: 0.3s;
+  }
+  
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+.overlay .closebtn {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 60px;
+  }
+  
+.little_emad {
+    display: block;
+    border-radius: 50%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.little_name {
+    font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 40px;
+}
+  
+
+  
+/* Hier eindigt de nav styling */
+
+@media only screen and (max-width: 768px){
+    
+    #elem1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .nav div{
+        height: 6px;
+        background-color: #86BBD8;
+        margin: 3px 0 ;
+        border-radius: 25px;
+        transition: 0.3s;
+    }
+    .nav {
+        width: 32px;
+        display: block;
+        margin: 1em 0 0 1em;
+        position: fixed;
+        z-index: 1; 
+        top: 0; 
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    
+    .one {
+        width: 32px;
+    }
+    .two {
+        width: 22px;
+    }
+    .three {
+        width: 27px;
+    }
+    .nav:hover div {
+        width: 32px;
+    }
+    .voorstellen {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 25%;
+        font-size: large;
+        line-height: 30px;
+        font-family: monospace;
+    }
+    .bar {
+        width: 150px;
+        height: 180px;
+        float: right;
+        margin-right: 5%;
+        margin-top: 8%;  
+        display: block;  
+        border-radius: 25px;
+    }
+}
+
+
+
